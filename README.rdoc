@@ -1,4 +1,4 @@
-= code_highlight
+= Page2images http://www.page2images.com/resources/img/logo.png
 
 This is an small extension for redmine, which adds a code highlight button to the default editor.
 
@@ -35,5 +35,3 @@ add it as a submodule of git:
 You may have to run to provide the assets
 
     rake redmine:plugins
-    
-<img src="http://www.page2images.com/resources/img/logo.png"/>
