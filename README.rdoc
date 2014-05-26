@@ -36,3 +36,4 @@ You may have to run to provide the assets
 
     rake redmine:plugins
     
+<img src="http://www.page2images.com/resources/img/logo.png"/>
