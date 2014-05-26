@@ -3,7 +3,7 @@ Redmine::Plugin.register :redmine_page2images do
   author 'Kada Tech.'
   description 'This is a plugin for Redmine. It adds a p2i Button to the editor, which convert a website page to image'
   version '0.0.1'
-  url 'https://github.com/ckada/redmine-page2images'
+  url 'https://github.com/SuzhouKada/redmine-page2images'
   author_url 'http://www.page2images.com'
 end
 
