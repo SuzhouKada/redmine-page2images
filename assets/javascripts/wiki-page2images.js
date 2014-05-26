@@ -30,8 +30,12 @@ jsToolBar.prototype.elements.page2images = {
 				'</form></div>';
 
             $j('#main').append(questionBox);
-            showModal('toolbar-p2i-options', '400px');
-            $j('#toolbar-p2i-options select').focus();
+			if (p2i_key == '') {
+				alert('Please go to PLUGIN_PATH/redmine_page2images/assets/javascripts/wiki-page2images-key.js \r\nto input your key, and then restart the redmine.');
+			} else {
+				showModal('toolbar-p2i-options', '400px');
+				$j('#toolbar-p2i-options select').focus();
+			}
         }
     }
 }
