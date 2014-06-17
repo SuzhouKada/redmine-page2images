@@ -19,24 +19,6 @@ Please feel in URL of the page you want to convert to image and select a size. T
 4 You will see the screenshot in the issue description field. Very cool. :)
 
 
-Select a text and press the "code"-button, choose your desired language and 
-
-GET RID OF WRITING:
-
-    <pre>
-        <code class="ruby">
-            MyClass.new(:blah)
-        </code>
-    <pre>
-
-It's a requested feature on redmine.org and I decided to try to implement it for my needs. Thankfully Felix S. has provided his code. I used the "redmine_wiki_extensions" which guides me through the process.
-
-http://www.redmine.org/issues/14937
-
-I also wanna thank Andriy L. which offers me the first hint for figuring out how to implement.
-
-http://stackoverflow.com/questions/19378096/syntax-highlight-in-redmine 
-
 
 == Installation
 
@@ -87,3 +69,17 @@ If you want, you can get more information about the API we used:
 * "Convert HTML to Image API Document":http://www.page2images.com/Convert-HTML-to-Image-or-PDF-online-API
 
 
+== Thanks
+
+
+It's a requested feature on redmine.org and I decided to try to implement it for my needs. Thankfully Felix S. has provided his code. I used the "redmine_wiki_extensions" which guides me through the process.
+
+http://www.redmine.org/issues/14937
+
+http://www.redmine.org/plugins/website-screenshot-page2images
+
+I also wanna thank Andriy L. which offers me the first hint for figuring out how to implement.
+
+http://stackoverflow.com/questions/19378096/syntax-highlight-in-redmine 
+
+I also wanna thanks Page2Images to provide the API.
