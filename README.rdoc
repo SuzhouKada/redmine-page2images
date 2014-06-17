@@ -9,7 +9,9 @@ Following is a simple user guide how to use it:
 http://www.page2images.com/resources/img/redmine/image001.png
 
 2 Click this button, you will see a pop up
+
 http://www.page2images.com/resources/img/redmine/image003.png
+
 Please feel in URL of the page you want to convert to image and select a size. Then click insert button.
 
 3 Save the issue.
