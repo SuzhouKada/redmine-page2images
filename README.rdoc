@@ -5,15 +5,16 @@ This is an small extension for redmine, which adds a code highlight button to th
 == User guide
 
 Following is a simple user guide how to use it:
-1. After install it, you will see a small button in the editor;
+1 After install it, you will see a small button in the editor;
 http://www.page2images.com/resources/img/redmine/image001.png
 
-2. Click this button, you will see a pop up
+2 Click this button, you will see a pop up
 http://www.page2images.com/resources/img/redmine/image003.png
-
 Please feel in URL of the page you want to convert to image and select a size. Then click insert button.
-3. Save the issue.
-4. You will see the screenshot in the issue description field. Very cool. :)
+
+3 Save the issue.
+
+4 You will see the screenshot in the issue description field. Very cool. :)
 
 
 Select a text and press the "code"-button, choose your desired language and 
