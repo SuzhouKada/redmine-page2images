@@ -23,9 +23,19 @@ http://stackoverflow.com/questions/19378096/syntax-highlight-in-redmine
 
 == Installation
 
-Clone or download this repo into your **redmine_root/plugins/** folder
 
-or
+* Download this plug-in into your *redmine_root/plugins/* folder
+* Get an API Key for your server. We used page2images website screenshot to implement this plug-in. Therefore, we need require an API key on it. Do not worry, it is totally free for most of users.
+> Click this button after login.
+> !http://www.page2images.com/resources/img/redmine/image007.png!
+
+> Click this button to require a new key for your server.
+> !http://www.page2images.com/resources/img/redmine/image009.png!	 
+
+> For example, you need install this on www.example.com. Then, you need input:
+> !http://www.page2images.com/resources/img/redmine/image011.png!	
+		 
+After that, you will get a unique key for www.example.com . Please open file /assets/javascripts/wiki-page2images-key.js and input the key in the source code.
 
 add it as a submodule of git:
 
@@ -33,5 +43,5 @@ add it as a submodule of git:
 
 
 You may have to run to provide the assets
-
     rake redmine:plugins
+
