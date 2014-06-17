@@ -48,16 +48,16 @@ You may have to run to provide the assets
 == Core features:
 
 You will get following benefit from this plug-in by default (or not by default):
-Quickly see one website page;
-Refresh page monthly automatically;
-Resize the screenshot images (Redmine does not support image size. But we support.)
+* Quickly see one website page;
+* Refresh page monthly automatically;
+* Resize the screenshot images (Redmine does not support image size. But we support.)
 
 ==  Limitations:
 
 Everything has limitation. But we do have some more.
-Cannot use on SSL server. (No workaround.)
-Cannot use more than 100 times per day with a free account.
-Cannot take screenshot with a non-public website.
+* Cannot use on SSL server. (No workaround.)
+* Cannot use more than 100 times per day with a free account.
+* Cannot take screenshot with a non-public website.
 
 == Background technology & documents:
 
@@ -65,8 +65,8 @@ If you are interesting how we implement this magic plug-in, there are some infor
 We used page2images API to generate the website screenshot.
 We used JQuery to implement the tool in front end.
 If you want, you can get more information about the API we used:
-* "Website Screenshot API Document":http://www.page2images.com/Create-Website-Screenshot-with-IMG-API
-* "Convert HTML to Image API Document":http://www.page2images.com/Convert-HTML-to-Image-or-PDF-online-API
+* [Website Screenshot API]http://www.page2images.com/Create-Website-Screenshot-with-IMG-API
+* [Convert HTML to Image API]http://www.page2images.com/Convert-HTML-to-Image-or-PDF-online-API
 
 
 == Thanks
