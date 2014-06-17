@@ -1,6 +1,20 @@
-= Page2images http://www.page2images.com/resources/img/logo.png
+= Website Screenshot for redmine
 
-This is an small extension for redmine, which adds a code highlight button to the default editor.
+This is an small extension for redmine, which adds a code highlight button to the default editor. When QA report a bug or support follow up a task, it is very common we need work base on one URL. Sometime, we need to see the screenshot of this URL as well. In this case, we need click the link and go to that website. Website Screenshot plug-in allow you insert a image for one URL quickly. So, we can save sometime for family or beer. 
+
+== User guide
+
+Following is a simple user guide how to use it:
+1. After install it, you will see a small button in the editor;
+http://www.page2images.com/resources/img/redmine/image001.png
+
+2. Click this button, you will see a pop up
+http://www.page2images.com/resources/img/redmine/image003.png
+
+Please feel in URL of the page you want to convert to image and select a size. Then click insert button.
+3. Save the issue.
+4. You will see the screenshot in the issue description field. Very cool. :)
+
 
 Select a text and press the "code"-button, choose your desired language and 
 
@@ -27,13 +41,13 @@ http://stackoverflow.com/questions/19378096/syntax-highlight-in-redmine
 * Download this plug-in into your *redmine_root/plugins/* folder
 * Get an API Key for your server. We used page2images website screenshot to implement this plug-in. Therefore, we need require an API key on it. Do not worry, it is totally free for most of users.
 > Click this button after login.
-> !http://www.page2images.com/resources/img/redmine/image007.png!
+> http://www.page2images.com/resources/img/redmine/image007.png
 
 > Click this button to require a new key for your server.
-> !http://www.page2images.com/resources/img/redmine/image009.png!	 
+> http://www.page2images.com/resources/img/redmine/image009.png	 
 
 > For example, you need install this on www.example.com. Then, you need input:
-> !http://www.page2images.com/resources/img/redmine/image011.png!	
+> http://www.page2images.com/resources/img/redmine/image011.png	
 		 
 After that, you will get a unique key for www.example.com . Please open file /assets/javascripts/wiki-page2images-key.js and input the key in the source code.
 
@@ -44,4 +58,29 @@ add it as a submodule of git:
 
 You may have to run to provide the assets
     rake redmine:plugins
+
+
+== Core features:
+
+You will get following benefit from this plug-in by default (or not by default):
+Quickly see one website page;
+Refresh page monthly automatically;
+Resize the screenshot images (Redmine does not support image size. But we support.)
+
+==  Limitations:
+
+Everything has limitation. But we do have some more.
+Cannot use on SSL server. (No workaround.)
+Cannot use more than 100 times per day with a free account.
+Cannot take screenshot with a non-public website.
+
+== Background technology & documents:
+
+If you are interesting how we implement this magic plug-in, there are some information. 
+We used page2images API to generate the website screenshot.
+We used JQuery to implement the tool in front end.
+If you want, you can get more information about the API we used:
+* "Website Screenshot API Document":http://www.page2images.com/Create-Website-Screenshot-with-IMG-API
+* "Convert HTML to Image API Document":http://www.page2images.com/Convert-HTML-to-Image-or-PDF-online-API
+
 
