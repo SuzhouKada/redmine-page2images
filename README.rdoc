@@ -25,20 +25,23 @@ Please feel in URL of the page you want to convert to image and select a size. T
 
 * Download this plug-in into your *redmine_root/plugins/* folder
 * Get an API Key for your server. We used page2images website screenshot to implement this plug-in. Therefore, we need require an API key on it. Do not worry, it is totally free for most of users.
-> Click this button after login.
-> http://www.page2images.com/resources/img/redmine/image007.png
+Click this button after login.
 
-> Click this button to require a new key for your server.
-> http://www.page2images.com/resources/img/redmine/image009.png	 
+http://www.page2images.com/resources/img/redmine/image007.png
 
-> For example, you need install this on www.example.com. Then, you need input:
-> http://www.page2images.com/resources/img/redmine/image011.png	
+Click this button to require a new key for your server.
+
+http://www.page2images.com/resources/img/redmine/image009.png	 
+
+For example, you need install this on www.example.com. Then, you need input:
+
+http://www.page2images.com/resources/img/redmine/image011.png	
 		 
 After that, you will get a unique key for www.example.com . Please open file /assets/javascripts/wiki-page2images-key.js and input the key in the source code.
 
 add it as a submodule of git:
 
-> git submodule add git://github.com/mediatainment/redmine_codebutton.git plugins/redmine_codebutton
+git submodule add git://github.com/mediatainment/redmine_codebutton.git plugins/redmine_codebutton
 
 
 You may have to run to provide the assets
@@ -65,8 +68,8 @@ If you are interesting how we implement this magic plug-in, there are some infor
 We used page2images API to generate the website screenshot.
 We used JQuery to implement the tool in front end.
 If you want, you can get more information about the API we used:
-* [Website Screenshot API]http://www.page2images.com/Create-Website-Screenshot-with-IMG-API
-* [Convert HTML to Image API]http://www.page2images.com/Convert-HTML-to-Image-or-PDF-online-API
+* Website-Screenshot-API[http://www.page2images.com/Create-Website-Screenshot-with-IMG-API]
+* Convert-HTML-to-Image-API[http://www.page2images.com/Convert-HTML-to-Image-or-PDF-online-API]
 
 
 == Thanks
